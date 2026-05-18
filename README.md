@@ -64,7 +64,7 @@ python train.py
 
 ---
 
-* **Total Epochs:** **164** — Total training iterations converted precisely to full passes over the CIFAR-10 dataset.
+* **Total Epochs:** **100** — Total training iterations converted precisely to full passes over the CIFAR-10 dataset.
 
 ---
 
