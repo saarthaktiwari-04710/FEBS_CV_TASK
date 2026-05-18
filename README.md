@@ -83,8 +83,9 @@ The training run yields the following performance trajectory across the 100-epoc
 | Milestone | Training Loss | Training Accuracy | Test Accuracy |
 | :--- | :--- | :--- | :--- |
 | **Epoch 1** | 0.8429 | 70.37% | 68.98% |
-| **Epoch 10** | 0.3416 | 88.43% | 85.95% |
-| **Epoch 30** | 0.2863 | 90.27% | 85.01% |
-| **Epoch 50** | 0.2022 | 92.99% | 87.57% |
-| **Epoch 70** | 0.0807 | 97.32% | 91.87% |
-| **Epoch 100** | 0.0033 | 99.96% | 94.83% |
+| **Epoch 10** | 0.43333 | 85.18% | 78.78% |
+| **Epoch 30** | 0.3015 | 89.68% | 84.90% |
+| **Epoch 50** | 0.1987 | 93.15% | 84.95% |
+| **Epoch 70** | 0.0722 | 97.64% | 92.15% |
+| **Epoch 90** | 0.0030 | 99.96% | 94.96% |
+| **Epoch 100** | 0.0025 | 99.98% | 95.04% |
