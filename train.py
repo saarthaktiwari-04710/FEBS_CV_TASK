@@ -4,7 +4,7 @@ from dataset.py import get_dataloaders
 
 trainloader, testloader= get_dataloaders()
 
-def train(num_epochs=10):
+def train(num_epochs=100):
   train_losses, train_acc_list, test_acc_list = [], [], []
 
   for epoch in range(num_epochs):
