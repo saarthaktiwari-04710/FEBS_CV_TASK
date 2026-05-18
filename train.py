@@ -1,4 +1,7 @@
 from torchvision import models
+import model.py
+
+
 def train(num_epochs=10):
   train_losses, train_acc_list, test_acc_list = [], [], []
 
