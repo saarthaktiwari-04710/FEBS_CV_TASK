@@ -72,3 +72,7 @@ class ResNet18(nn.Module):
         return out
 
 model = ResNet18().to(device)
+
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.SGD(model.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
+scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)
